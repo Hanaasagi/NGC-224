@@ -1,0 +1,31 @@
+[package]
+name = "NGC224"
+version = "0.1.0"
+authors = ["Hanaasagi <ambiguous404@gmail.com>"]
+edition = "2018"
+doctest = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "NGC224"
+path = "src/bin/main.rs"
+
+[dependencies]
+# pixels = "0.3.0"
+# sdl2 = "0.34"
+winit = {version = "0.25.0", features = ["serde"] }
+winit_input_helper = "0.9"
+bitflags = "1.0"
+log = "0.4"
+fern = { version = "0.5", features = ["colored"] }
+chrono = "0.4"
+lazy_static = "1.4.0"
+minifb = { version = "0.19.3" }
+env_logger = "0.8"
+backtrace = "0.3"
+# serde_json = "1.0"
+# serde = { version = "1.0", features = ["derive"] }
+signal-hook = "0.3.9"
+rustyline = "8.2.0"
+clap = "2.33.3"
