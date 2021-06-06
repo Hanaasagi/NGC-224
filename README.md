@@ -24,13 +24,23 @@ A Gameboy emulator built in Rust.
 
 ## Building and Installation
 
+#### Build from source
+
 ```Bash
 $ git clone https://github.com/Hanaasagi/NGC-224.git
 $ cd NGC-224
 $ cargo run -- -p <your rom path>
 ```
 
+#### Install from the release page
 
+Only 
+```Bash
+$ wget https://github.com/Hanaasagi/NGC-224/releases/download/v0.1.0/NGC224-macos.tar.gz
+$ tar -xvzf NGC224-macos.tar.gz
+$ ./NGC224 -p <your rom path>
+
+```
 ## KeyBoard Mapping
 
 | Keyboard     | Gameboy |
