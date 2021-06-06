@@ -34,13 +34,9 @@ $ cargo run -- -p <your rom path>
 
 #### Install from the release page
 
-Only 
-```Bash
-$ wget https://github.com/Hanaasagi/NGC-224/releases/download/v0.1.0/NGC224-macos.tar.gz
-$ tar -xvzf NGC224-macos.tar.gz
-$ ./NGC224 -p <your rom path>
+I only upload the macos platform binary to Github. Download from the [release page](https://github.com/Hanaasagi/NGC-224/releases/).
 
-```
+
 ## KeyBoard Mapping
 
 | Keyboard     | Gameboy |
